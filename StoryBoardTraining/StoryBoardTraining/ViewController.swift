@@ -8,12 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var mailaddressTextField: UITextField!
+    @IBOutlet weak var passWordTextField: UITextField!
+    @IBOutlet weak var signInButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+        mailaddressTextField.layer.cornerRadius = 30
+        passWordTextField.layer.cornerRadius = 30
+        signInButton.layer.cornerRadius = 30
+        
     }
-
-
 }
 
