@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftLint;
+			productName = SwiftLint;
 		};
 /* End PBXAggregateTarget section */
 
@@ -75,14 +76,14 @@
 		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		7F50B22B876FF3F82ADF0E3434A0CD95 /* Pods-StoryBoardTraining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StoryBoardTraining-dummy.m"; sourceTree = "<group>"; };
 		8D848FD142BAB1D1849802AADDA7E87D /* Pods-StoryBoardTraining-StoryBoardTrainingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StoryBoardTraining-StoryBoardTrainingUITests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A86E1F4351AB46899F62380E8DB4DD6A /* Pods_StoryBoardTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StoryBoardTraining.framework; path = "Pods-StoryBoardTraining.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A86E1F4351AB46899F62380E8DB4DD6A /* Pods_StoryBoardTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryBoardTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA73EEC63CF953D96044873281A7A4A4 /* Pods-StoryBoardTraining-StoryBoardTrainingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoryBoardTraining-StoryBoardTrainingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD064B2C183C04F6E5CC3F7D443665EA /* Pods-StoryBoardTraining-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StoryBoardTraining-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0EBFC0B1910B675461FA793B3BD351D /* Pods-StoryBoardTraining-StoryBoardTrainingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StoryBoardTraining-StoryBoardTrainingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C7F28828560F30354AD9885EBE563DF8 /* Pods-StoryBoardTraining-StoryBoardTrainingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StoryBoardTraining-StoryBoardTrainingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D96EE81DE92214E57E305203D378E611 /* Pods_StoryBoardTrainingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StoryBoardTrainingTests.framework; path = "Pods-StoryBoardTrainingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3436F2C5866460EAD593B70B4C5ECB0 /* Pods_StoryBoardTraining_StoryBoardTrainingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StoryBoardTraining_StoryBoardTrainingUITests.framework; path = "Pods-StoryBoardTraining-StoryBoardTrainingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96EE81DE92214E57E305203D378E611 /* Pods_StoryBoardTrainingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryBoardTrainingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3436F2C5866460EAD593B70B4C5ECB0 /* Pods_StoryBoardTraining_StoryBoardTrainingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoryBoardTraining_StoryBoardTrainingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CCFA8ED486FA163CDF3215D80820CB /* Pods-StoryBoardTraining-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StoryBoardTraining-Info.plist"; sourceTree = "<group>"; };
 		F97DF06E14A92EF18153078DF659AA4E /* Pods-StoryBoardTraining-StoryBoardTrainingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StoryBoardTraining-StoryBoardTrainingUITests.modulemap"; sourceTree = "<group>"; };
 		FEA9ADF863BC442FD64BA664486166AB /* Pods-StoryBoardTrainingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StoryBoardTrainingTests.modulemap"; sourceTree = "<group>"; };
@@ -234,7 +235,6 @@
 			children = (
 				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -332,7 +332,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1250;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 12.0";
@@ -585,7 +585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -804,7 +804,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

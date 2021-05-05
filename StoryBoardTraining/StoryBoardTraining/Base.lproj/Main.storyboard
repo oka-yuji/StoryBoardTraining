@@ -132,13 +132,14 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="actionButton:" destination="Wrk-LD-OJg" eventType="touchUpInside" id="Azj-da-HbQ"/>
-                                    <segue destination="rtm-pp-rUR" kind="presentation" id="eLq-aW-ydP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gur-EQ-ubb">
-                                <rect key="frame" x="307" y="278" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gur-EQ-ubb">
+                                <rect key="frame" x="324" y="275" width="31" height="30"/>
                                 <state key="normal" title="遷移"/>
+                                <connections>
+                                    <segue destination="rtm-pp-rUR" kind="show" id="3vJ-Cq-KZR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="w6M-vD-33O"/>
@@ -146,11 +147,15 @@
                         <constraints>
                             <constraint firstItem="sQI-KE-Zxv" firstAttribute="leading" secondItem="w6M-vD-33O" secondAttribute="leading" constant="20" id="3Iw-jC-Pre"/>
                             <constraint firstItem="w6M-vD-33O" firstAttribute="trailing" secondItem="MUb-jw-hZ0" secondAttribute="trailing" constant="20" id="GEf-tR-0pT"/>
+                            <constraint firstItem="gur-EQ-ubb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="w6M-vD-33O" secondAttribute="leading" symbolic="YES" id="HCo-6A-Lae"/>
                             <constraint firstItem="RtS-rZ-oAp" firstAttribute="top" secondItem="MUb-jw-hZ0" secondAttribute="bottom" constant="40" id="HFW-8L-n5J"/>
+                            <constraint firstItem="gur-EQ-ubb" firstAttribute="top" secondItem="RtS-rZ-oAp" secondAttribute="bottom" constant="30" id="YGJ-c4-gOI"/>
                             <constraint firstItem="sQI-KE-Zxv" firstAttribute="top" secondItem="w6M-vD-33O" secondAttribute="top" constant="100" id="YwP-gg-0XC"/>
                             <constraint firstItem="w6M-vD-33O" firstAttribute="trailing" secondItem="RtS-rZ-oAp" secondAttribute="trailing" constant="30" id="ZOk-6g-hmv"/>
                             <constraint firstItem="MUb-jw-hZ0" firstAttribute="leading" secondItem="w6M-vD-33O" secondAttribute="leading" constant="20" id="ef6-v5-Qjx"/>
+                            <constraint firstItem="w6M-vD-33O" firstAttribute="trailing" secondItem="gur-EQ-ubb" secondAttribute="trailing" constant="20" id="ffy-l5-cGW"/>
                             <constraint firstItem="w6M-vD-33O" firstAttribute="trailing" secondItem="sQI-KE-Zxv" secondAttribute="trailing" constant="20" id="nRA-6j-r4Z"/>
+                            <constraint firstItem="RtS-rZ-oAp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="w6M-vD-33O" secondAttribute="leading" symbolic="YES" id="o8J-cG-8Yu"/>
                             <constraint firstItem="MUb-jw-hZ0" firstAttribute="top" secondItem="sQI-KE-Zxv" secondAttribute="bottom" constant="20" id="sbg-h2-9yn"/>
                         </constraints>
                     </view>
@@ -230,6 +235,7 @@
                             <constraint firstItem="JLD-0x-CzM" firstAttribute="centerX" secondItem="Suj-6h-lrP" secondAttribute="centerX" id="wqr-Yq-FuT"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="G1B-XJ-mwT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HjU-k8-HE4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

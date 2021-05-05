@@ -12,8 +12,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var passWordTextField: UITextField!
     @IBOutlet weak var signInButton: UIButton!
     @IBOutlet weak var subTitle: UILabel!
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
         self.mailaddressTextField.becomeFirstResponder()
         mailaddressTextField.layer.cornerRadius = 30
         passWordTextField.layer.cornerRadius = 30
@@ -23,4 +26,3 @@ class ViewController: UIViewController {
         mailaddressTextField.keyboardType = .default
     }
 }
-
