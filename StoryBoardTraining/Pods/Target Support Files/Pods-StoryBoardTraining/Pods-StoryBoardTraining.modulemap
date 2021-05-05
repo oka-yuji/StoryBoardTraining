@@ -1,0 +1,6 @@
+framework module Pods_StoryBoardTraining {
+  umbrella header "Pods-StoryBoardTraining-umbrella.h"
+
+  export *
+  module * { export * }
+}
